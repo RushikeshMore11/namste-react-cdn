@@ -1,0 +1,23 @@
+{
+  "name": "namste-react-cdn",
+  "version": "1.0.0",
+  "description": "This is Namaste react web series via cdn",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RushikeshMore11/namste-react-cdn.git"
+  },
+  "keywords": [
+    "react",
+    "cdn"
+  ],
+  "author": "Rushikesh More",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RushikeshMore11/namste-react-cdn/issues"
+  },
+  "homepage": "https://github.com/RushikeshMore11/namste-react-cdn#readme"
+}

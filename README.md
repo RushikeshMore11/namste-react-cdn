@@ -1,2 +1,2 @@
 # namste-react-cdn
-React Native via CDN
+React JS via CDN
