@@ -1,3 +1,5 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
 const App = () => {
   const h1 = React.createElement(
     "h1",
@@ -15,10 +17,3 @@ const App = () => {
   root.render(parent);
 };
 App();
-
-// const heading = React.createElement("h1",{},"I love You Baby");
-
-// const div = React.createElement("div",{id:"parent"},[heading]);
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(div);
