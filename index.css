@@ -1,3 +1,73 @@
-#heading {
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
+  background: goldenrod;
+}
+
+.header_container {
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 32px 4px #000;
+}
+.logo_container {
+  width: 50px;
+  height: 50px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar_container > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+ul > li {
+  font-size: x-large;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-weight: 400;
+}
+ul > li:hover {
+  color: rgb(25, 53, 237);
+  transition: 0.1s;
+  font-weight: 700;
+}
+
+.search_container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 5;
+}
+
+.resto_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.resto_card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+.resto_card:hover {
+  border: 1px solid cornflowerblue;
+}
+
+.resto_image {
+  width: 95%;
 }
