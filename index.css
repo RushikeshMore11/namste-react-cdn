@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: goldenrod;
+  background: white;
 }
 
 .header_container {
@@ -47,17 +47,24 @@ ul > li:hover {
   margin-top: 30px;
   margin-bottom: 20px;
   padding: 5;
+  cursor: pointer;
 }
+/* .search_container:hover {
+  background: rgb(123, 123, 216);
+  color: white;
+  font-weight: 800;
+  border: none;
+} */
 
 .resto_container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10px;
+  margin-top: 20px;
 }
 
 .resto_card {
   width: 200px;
-  height: 300px;
   border: 1px solid black;
   margin: 5px;
   padding: 10px;
@@ -66,6 +73,7 @@ ul > li:hover {
 
 .resto_card:hover {
   border: 1px solid cornflowerblue;
+  scale: 1.01;
 }
 
 .resto_image {
